@@ -1,6 +1,7 @@
 body{
     font-family: 'Ubuntu', sans-serif;
     background: black;
+    margin-inline: 5em;
 }
 .header{
     color: white;
@@ -14,13 +15,15 @@ body{
 }
 #score{
     color: whitesmoke;
-    display: flex;  
-    align-items: center; 
-    flex-direction: column; 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
     padding: 30px;
     border-radius: 100px;
     border: 1px solid white; 
-    margin: 100px; 
+    margin: 50px; 
     transition: 0.4s;
 }
 #restartbutton{
@@ -37,7 +40,7 @@ body{
     transition: 0.4s;
 }
 #restartbutton:hover{
-    transform: scale(1.1);
+    transform: scale(0.5);
     background-color: black;
     color: white;
     border-radius: 100px;
