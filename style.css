@@ -1,0 +1,63 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background: black;
+}
+.header{
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 50px;
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+}
+#score{
+    color: whitesmoke;
+    display: flex;  
+    align-items: center; 
+    flex-direction: column; 
+    padding: 30px;
+    border-radius: 100px;
+    border: 1px solid white; 
+    margin: 100px; 
+    transition: 0.4s;
+}
+#restartbutton{
+    background-color: black;
+    color: white;
+    border: solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    border-radius: 100px;
+    padding: 10px;
+    margin: 12px;
+    transition: 0.4s;
+}
+#restartbutton:hover{
+    transform: scale(1.1);
+    background-color: black;
+    color: white;
+    border-radius: 100px;
+}
+#btnRock, #btnScissors, #btnPaper{
+    height: 150px; 
+    width: 150px;
+    border-radius: 100px; 
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    transition: 0.4s;
+}
+#btnRock:hover, #btnScissors:hover, #btnPaper:hover, #score:hover{
+    transform: scale(1.3);
+    background-color: white;
+    color: black;
+}
+#results{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
